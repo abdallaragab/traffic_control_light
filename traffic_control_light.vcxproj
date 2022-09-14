@@ -116,6 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\a-m-m\source\repos\traffic_control_light;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,12 +140,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ECUAL\LEDS.h" />
     <ClInclude Include="MCAL\DIO\DIO_conf.h" />
     <ClInclude Include="MCAL\DIO\DIO_int.h" />
     <ClInclude Include="MCAL\DIO\DIO_PRIV.h" />
+    <ClInclude Include="MCAL\EXIT\EXIT.h" />
+    <ClInclude Include="MCAL\EXIT\GIE.h" />
+    <ClInclude Include="Services\BIT_MATHS.h" />
+    <ClInclude Include="Services\STD_TYPES.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="APP\main.c" />
     <ClCompile Include="MCAL\DIO\DIO_PRG.c" />
+    <ClCompile Include="MCAL\EXIT\EXIT.c" />
+    <ClCompile Include="MCAL\EXIT\GIE.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

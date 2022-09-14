@@ -24,9 +24,33 @@
     <ClInclude Include="MCAL\DIO\DIO_int.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Services\BIT_MATHS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Services\STD_TYPES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MCAL\EXIT\EXIT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MCAL\EXIT\GIE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECUAL\LEDS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MCAL\DIO\DIO_PRG.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCAL\EXIT\EXIT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MCAL\EXIT\GIE.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="APP\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
